@@ -1,0 +1,34 @@
+span,
+sup {
+  color: green;
+}
+/* universal sellector*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: rgba(34, 31, 31, 0.534);
+}
+
+/*.about {
+  background: pink;
+}*/
+
+#about {
+  background: blue;
+}
+
+.navList {
+  background: powderblue;
+}
+.navList li {
+  border: 5px solid blue;
+}

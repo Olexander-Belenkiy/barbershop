@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <header>
@@ -16,18 +17,18 @@
         <img src="./imeges/logo.svg" alt="logo">
     </a>
         <nav>
-        <ul>
+        <ul class="navList">
          <li>
-             <a href="">О нас</a>
+             <a href="#about">О нас</a>
          </li>   
          <li>
-            <a href="">Услуги и цены</a>
+            <a href="#price">Услуги и <span>цены</span></a>
         </li>
         <li>
-            <a href="">Мастера</a>
+            <a href="#mastera">Мастера</a>
         </li>   
         <li>
-            <a href="">Контакты</a>
+            <a href="#contact">Контакты</a>
         </li>      
         </ul>
         <ul>
@@ -52,8 +53,7 @@
 <div>
     <p>A hair salon for men in Kyiv</p>
     <h1>BarberShop</h1>
-    <p>Мы эксперты в модных мужских стрижках.
-    Работаем быстро, осторожно и со вкусом.</p>
+    <p>Мы <strong>эксперты в <em>модных</em></strong> мужских стрижках.<br />Работаем <b>быстро, осторожно и со вкусом.</b></p>
 </div>
 <ul>
     <li>
@@ -65,7 +65,7 @@
 </ul>
 </div>
 </section>
-<section>
+<section id="about" class="about">
     <div class="container">
     <ul>
         <li>
@@ -89,7 +89,7 @@
 </div>
 </div>
 </section>
-<section>
+<section id="price">
     <div class="container">
 <p>Проведи время в компании лучших мастеров</p>
 <h2>Услуги и цены</h2>
@@ -124,24 +124,45 @@
 </section>
 <section>
     <div class="container">
-    <ul>
-        <li>
-            <p>600</p>
-            <p>Довольных клиентов в день</p>
-        </li>
-        <li>
-            <p>50</p>
-            <p>Наград за отличный сервис</p>
-        </li>
-        <li>
-            <p>20</p>
-            <p>Лучших мастеров Киева</p>
-        </li>
-        <li>
-            <p>100</p>
-            <p>Подарков постоянным клиентам</p>
-        </li>
-    </ul>
+   <!--
+ <div>
+        <dl>
+            <dt>600</dt>
+            <dd>Довольных клиентов в день<dd>
+        </dl>
+        <dl>
+            <dt>50</dt>
+            <dd>Наград за отличный сервис<dd>
+        </dl>
+        <dl>
+            <dt>20</dt>
+            <dd>Лучших мастеров Киева<dd>
+        </dl>
+        <dl>
+            <dt>100</dt>
+            <dd>Подарков постоянным клиентам<dd>
+        </dl>
+    </div>
+   -->
+<ul>
+    <li>
+        <p>600<sup>+</sup></p>
+        <p>Довольных клиентов в день</p>
+    </li>
+    <li>
+        <p>50</p>
+        <p>Наград за отличный сервис</p>
+    </li>
+    <li>
+        <p>20</p>
+        <p>Лучших мастеров Киева</p>
+    </li>
+    <li>
+        <p>100<sub>2</sub></p>
+        <p>Подарков постоянным клиентам</p>
+    </li>
+</ul>
+
     <div>
         <p>Cтарая традиционная школа</p>
         <h2>Почему приходят именно к нам?</h2>
@@ -149,7 +170,7 @@
     </div>
     </div>
 </section>
-<section>
+<section id="mastera">
     <div class="container">
     <p>для настоящих ценителей атмосферы</p>
     <h2>Наши мастера</h2>
@@ -270,7 +291,7 @@
     </div>
     
     
-        <div>
+        <div id="contact">
             <h2>Kontakt</h2>
         <address>
                 <ul>
